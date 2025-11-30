@@ -1,0 +1,36 @@
+{
+  "name": "temp-mail-telegram-bot",
+  "version": "1.0.0",
+  "description": "Professional Telegram bot for temporary email management with real-time notifications",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "setup": "node src/setup.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "temp-mail",
+    "mail.tm",
+    "websocket",
+    "sqlite"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0",
+    "axios": "^1.6.2",
+    "better-sqlite3": "^9.2.2",
+    "eventsource": "^2.0.2",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "cron": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
